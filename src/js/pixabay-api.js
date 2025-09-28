@@ -6,7 +6,7 @@ import { hideLoader } from './render-functions';
 export function getImagesByQuery(query) {
   return axios(`https://pixabay.com/api/`, {
     params: {
-      key: '51395904-122be9b434c3d42803bb62926',
+      key: '52399485-abaa9cbef55c5a94206dd148e',
       q: query,
       image_type: 'photo',
       orientation: 'horizontal',
